@@ -1,6 +1,7 @@
 import yaml
 import os
 from pymongo import MongoClient
+import time
 
 NUMBER_OF_CONFIG_REPL = 3
 NUMBER_OF_MONGOS_REPL = 1
